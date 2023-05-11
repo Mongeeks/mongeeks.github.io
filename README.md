@@ -1,130 +1,164 @@
-Shop Store theme ! Free Woocommerce Theme 
-========================================
-<br/>
-<h4><a href="https://athemeart.com/demo/shopstore/" target="_blank">Live Demo 1</a>  |    <a href="https://athemeart.com/demo/shopstore2nd/" target="_blank">Live Demo 2 </a>     | <a href="https://athemeart.com/downloads/shopstore/" target="_blank">Documentation</a>  | <a href="https://athemeart.com/blog/docs/ecommerce-theme-user-guide/" target="_blank">PRO VERSION</a></h4>
-<br/>
-<a href="https://athemeart.com/downloads/shopstore/" target="_blank">
-<img src="https://raw.githubusercontent.com/edatastyle/Shopstore-free-woocomerce-theme/master/screenshot.png" alt="WordPress eCommerce theme" /></a>
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>BR</b> Architects</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <h3>John Doe</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <h3>Jane Doe</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+      <h3>Mike Ross</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+      <h3>Dan Star</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
 
 
-Here is a modern, unique, and hugely attractive Free <a href="https://athemeart.com/downloads/shopstore/" target="_blank">WordPress eCommerce theme</a> named by Shopstore. It designs with complete responsiveness to look your site extraordinary on any devices or screens. Also, its gorgeous design and mind-blowing product presentation options will make you think about how powerful and useful the theme is among other online shops. However, this type of Shopstore free <a href="https://wordpress.org/themes/shopstore/" target="_blank">WordPress store theme</a> is perfect for eCommerce websites, and best suitable for fashion, sport, technology, fashion, furniture, digitals, and any associated websites. To clarify, Shopstore is wrap up with a vast collection of customization options that are reasonably easy to use. Besides, it runs accordingly with Gutenberg and with the most popular page builders. Such as WPBakery Page Builder, Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi, and so on. And top of that, this theme has a great friendship with Elementor and WooCommerce. So, what are you looking for, a Multi-Purpose theme, or a <strong>WordPress Store<strong>? Don't waste your valuable time searching elsewhere. Check out our unique <a href="https://athemeart.com/demo/shopstore/" rel="nofollow">demos</a> to understand, it's the only reliable, desirable, and most useful theme you always wanted.
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
 
-
-<pre>
-== Installation ==
-	
-1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
-3. Click Activate to use your new theme right away.
-</pre>
-
-<pre>
-== Credits ==
-
-Underscores:
-Author: 2012-2015 Automattic
-Source: http://underscores.me
-License: GPLv3 or later](https://www.gnu.org/licenses/gpl-3.0.html)
-
-Bootstrap:
-Author: Twitter
-Source: http://getbootstrap.com
-License: Licensed under the MIT license
-
-Fontawesome :
-Author: fontawesome
-Source: http://fontawesome.io/
-License: [MIT/SIL OFL Licensed](http://fontawesome.io/license/)
-
-Customizer:
-Author: https://github.com/justintadlock
-Source: https://github.com/justintadlock/trt-customizer-pro
-License: GNU GPL
-
-Owl Carousel 2:
-Author: David Deutsch
-Source: https://github.com/OwlCarousel2/OwlCarousel2
-License: [MIT License.]
-
-Tether:
-Author: TrevorBurnham  
-Source: https://github.com/HubSpot/tether
-License: [GPLv2 or later]
-
-RD Navbar :
-Author:  OXAYAZA    
-Source: https://github.com/ZemezPlugins/rd-navbar
-License: GPLv2 or later
-
-Tgmpluginactivation:
-Source: http://tgmpluginactivation.com/
-License: GPL-2.0 or later license.
-
-jquery.customSelect:
-Author:  Adam Coulombe    
-Source: http://adam.co/lab/jquery/customselect/
-License: GPL2
-
-magnific-popup:
-Author:  dimsemenov    
-Source: https://github.com/dimsemenov/Magnific-Popup/blob/master/LICENSE
-License: MIT License
-
-
-== Google Fonts ==
-Nunito
-Source: https://fonts.google.com/specimen/Nunito
-License: Open Font License 
-
-Open+Sans
-Source: https://fonts.google.com/specimen/Open+Sans
-License: Apache License, Version 2.0  
-
-Roboto Condensed
-Source: https://fonts.google.com/specimen/Roboto+Condensed
-License: Apache License, Version 2.0 
-
-== Image Used ==
-https://pxhere.com/en/photo/1451201
-All are Licensed under CC0
-
-</pre>
-
-
-<pre>
-== Upgrade Notice  ==
-
-= 4.1.9 =
-* Elementor editor simplify
-
-= 4.1.8 =
-* Author URL remove from footer
-
-= 4.1.7 =
-* Removed esc_attr error
-
-= 4.1.5 =
-* Removed all demo content
-* theme meta info added
-
-= 4.1.4 =
-* Widget add for Advanced Product Search 
-
-= 4.1.3 =
-* stripe input box css added
-
-= 4.1.1 =
-* skip links
-* keyboard navigation
-
-= 4.1.0 =
-* gutenberg gallery slider
-* google font sawp
-* recommed seo plugins
-</pre>
-
-<pre>
-== Copyright ==
-shopstore WordPress Theme, Copyright (C) 2017 aThemeArt.com
-shopstore is distributed under the terms of the GNU GPL
-</pre>
+</body>
+</html>
